@@ -1,6 +1,6 @@
 module github.com/mudler/LocalAI
 
-go 1.23.8
+go 1.24.0
 
 toolchain go1.24.5
 
@@ -11,7 +11,7 @@ require (
 	github.com/alecthomas/kong v0.9.0
 	github.com/charmbracelet/glamour v0.10.0
 	github.com/chasefleming/elem-go v0.31.0
-	github.com/containerd/containerd v1.7.27
+	github.com/containerd/containerd v1.7.29
 	github.com/dave-gray101/v2keyauth v0.0.0-20240624150259-c45d584d25e2
 	github.com/ebitengine/purego v0.8.4
 	github.com/fsnotify/fsnotify v1.9.0
@@ -48,7 +48,7 @@ require (
 	github.com/schollz/progressbar/v3 v3.14.4
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/streamer45/silero-vad-go v0.2.1
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	github.com/swaggo/swag v1.16.3
 	github.com/testcontainers/testcontainers-go v0.35.0
 	github.com/tmc/langchaingo v0.1.13
@@ -143,6 +143,7 @@ require (
 	go.uber.org/mock v0.5.2 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/image v0.25.0 // indirect
+	golang.org/x/telemetry v0.0.0-20251008203120-078029d740a8 // indirect
 	golang.org/x/time v0.12.0 // indirect
 	google.golang.org/protobuf v1.36.7 // indirect
 )
@@ -181,7 +182,6 @@ require (
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dsnet/compress v0.0.2-0.20210315054119-f66993602bf5 // indirect
 	github.com/flynn/noise v1.1.0 // indirect
-	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/go-audio/audio v1.0.0
 	github.com/go-audio/riff v1.0.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
@@ -193,7 +193,7 @@ require (
 	github.com/go-openapi/swag v0.23.0 // indirect
 	github.com/gofiber/contrib/fiberzerolog v1.0.2
 	github.com/gofiber/template v1.8.3 // indirect
-	github.com/gofiber/utils v1.1.0 // indirect
+	github.com/gofiber/utils v1.2.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/snappy v0.0.4 // indirect
@@ -281,8 +281,8 @@ require (
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.64.0 // indirect
 	github.com/prometheus/procfs v0.16.1 // indirect
-	github.com/quic-go/qpack v0.5.1 // indirect
-	github.com/quic-go/quic-go v0.54.0 // indirect
+	github.com/quic-go/qpack v0.6.0 // indirect
+	github.com/quic-go/quic-go v0.57.0 // indirect
 	github.com/quic-go/webtransport-go v0.9.0 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
@@ -314,15 +314,15 @@ require (
 	go.uber.org/fx v1.24.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
-	golang.org/x/crypto v0.41.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/exp v0.0.0-20250606033433-dcc06ee1d476 // indirect
-	golang.org/x/mod v0.27.0 // indirect
-	golang.org/x/net v0.43.0 // indirect
-	golang.org/x/sync v0.16.0 // indirect
-	golang.org/x/sys v0.35.0 // indirect
-	golang.org/x/term v0.34.0 // indirect
-	golang.org/x/text v0.28.0 // indirect
-	golang.org/x/tools v0.36.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 	golang.zx2c4.com/wireguard v0.0.0-20250521234502-f333402bd9cb // indirect
 	golang.zx2c4.com/wireguard/windows v0.5.3 // indirect
